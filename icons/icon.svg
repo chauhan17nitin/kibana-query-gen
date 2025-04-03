@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#0066CC"/>
+  
+  <!-- Console Window -->
+  <rect x="16" y="16" width="96" height="96" rx="8" fill="#FFFFFF" opacity="0.1"/>
+  
+  <!-- Query Lines -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+    <line x1="32" y1="40" x2="96" y2="40"/>
+    <line x1="32" y1="60" x2="96" y2="60"/>
+    <line x1="32" y1="80" x2="96" y2="80"/>
+  </g>
+  
+  <!-- AI Element -->
+  <circle cx="40" cy="88" r="8" fill="#FFFFFF"/>
+  <circle cx="56" cy="88" r="8" fill="#FFFFFF"/>
+  <circle cx="72" cy="88" r="8" fill="#FFFFFF"/>
+</svg> 

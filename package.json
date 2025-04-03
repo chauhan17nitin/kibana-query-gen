@@ -1,0 +1,8 @@
+{
+  "name": "kibana-query-automation",
+  "version": "1.0.0",
+  "description": "Chrome extension for AI-powered Elasticsearch query generation",
+  "dependencies": {
+    "sharp": "^0.32.6"
+  }
+} 

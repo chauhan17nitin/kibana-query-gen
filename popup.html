@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kibana Query AI Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Kibana Query AI Assistant</h1>
+      <div class="model-selector">
+        <select id="modelSelect">
+          <option value="openai">OpenAI GPT-4</option>
+          <option value="gemini">Gemini Pro</option>
+        </select>
+      </div>
+    </div>
+    <div class="chat-container" id="chatContainer">
+      <!-- Chat messages will be inserted here -->
+    </div>
+    <div class="input-container">
+      <textarea id="userInput" placeholder="Describe your query requirement..."></textarea>
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
